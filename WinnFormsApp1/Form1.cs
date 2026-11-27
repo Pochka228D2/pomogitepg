@@ -1,5 +1,6 @@
 ﻿using MySqlConnector;
 using System;
+using System.IO;
 using System.Windows.Forms;
 
 namespace WinnFormsApp1
@@ -9,6 +10,8 @@ namespace WinnFormsApp1
         public Form1()
         {
             InitializeComponent();
+            picLogo.Image = ProductCardControl.ReadImage(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Resources", "logo.png"));
+            Disposed += (s, e) => picLogo.Image?.Dispose();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)

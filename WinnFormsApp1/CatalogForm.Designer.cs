@@ -64,7 +64,7 @@
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.btnBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(178)))), ((int)(((byte)(175)))));
             this.btnBack.Location = new System.Drawing.Point(14, 52);
             this.btnBack.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBack.Name = "btnBack";
@@ -75,7 +75,7 @@
             // 
             // btnOrder
             // 
-            this.btnOrder.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.btnOrder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(178)))), ((int)(((byte)(175)))));
             this.btnOrder.Enabled = false;
             this.btnOrder.Location = new System.Drawing.Point(396, 14);
             this.btnOrder.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -88,7 +88,7 @@
             // 
             // btnOrderList
             // 
-            this.btnOrderList.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.btnOrderList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(178)))), ((int)(((byte)(175)))));
             this.btnOrderList.Enabled = false;
             this.btnOrderList.Location = new System.Drawing.Point(534, 14);
             this.btnOrderList.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -185,6 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(246)))), ((int)(((byte)(231)))));
             this.ClientSize = new System.Drawing.Size(1370, 712);
             this.Controls.Add(this.flpProduct);
             this.Controls.Add(this.cboPriceSort);

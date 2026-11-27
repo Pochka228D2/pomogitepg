@@ -33,12 +33,14 @@
             this.txtLogin = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnGuest = new System.Windows.Forms.Button();
+            this.picLogo = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // idTitle
             // 
             this.idTitle.AutoSize = true;
-            this.idTitle.Location = new System.Drawing.Point(119, 127);
+            this.idTitle.Location = new System.Drawing.Point(397, 154);
             this.idTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.idTitle.Name = "idTitle";
             this.idTitle.Size = new System.Drawing.Size(91, 15);
@@ -48,7 +50,7 @@
             // idLogin
             // 
             this.idLogin.AutoSize = true;
-            this.idLogin.Location = new System.Drawing.Point(304, 127);
+            this.idLogin.Location = new System.Drawing.Point(506, 226);
             this.idLogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.idLogin.Name = "idLogin";
             this.idLogin.Size = new System.Drawing.Size(42, 15);
@@ -57,7 +59,7 @@
             // 
             // txtLogin
             // 
-            this.txtLogin.Location = new System.Drawing.Point(122, 192);
+            this.txtLogin.Location = new System.Drawing.Point(372, 226);
             this.txtLogin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(116, 22);
@@ -65,9 +67,9 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(178)))), ((int)(((byte)(175)))));
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Location = new System.Drawing.Point(260, 187);
+            this.btnLogin.Location = new System.Drawing.Point(387, 254);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(88, 27);
@@ -78,9 +80,9 @@
             // 
             // btnGuest
             // 
-            this.btnGuest.BackColor = System.Drawing.Color.MediumSpringGreen;
+            this.btnGuest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(178)))), ((int)(((byte)(175)))));
             this.btnGuest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuest.Location = new System.Drawing.Point(400, 187);
+            this.btnGuest.Location = new System.Drawing.Point(344, 369);
             this.btnGuest.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGuest.Name = "btnGuest";
             this.btnGuest.Size = new System.Drawing.Size(204, 27);
@@ -89,11 +91,21 @@
             this.btnGuest.UseVisualStyleBackColor = false;
             this.btnGuest.Click += new System.EventHandler(this.btnGuest_Click);
             // 
+            // picLogo
+            // 
+            this.picLogo.Location = new System.Drawing.Point(372, 60);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(128, 79);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 5;
+            this.picLogo.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.picLogo);
             this.Controls.Add(this.btnGuest);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.txtLogin);
@@ -103,6 +115,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,6 +128,7 @@
         private System.Windows.Forms.TextBox txtLogin;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnGuest;
+        private System.Windows.Forms.PictureBox picLogo;
     }
 }
 
